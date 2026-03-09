@@ -1,0 +1,143 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ArpLookup/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ArpLookup.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/ArpLookup.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MacAddressVendorLookup/1.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MacAddressVendorLookup.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MacAddressVendorLookup.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArpLookup/2.0.3": {
+      "sha512": "b5kueDYq0U6+6KcuQoB2+1057Fo/qq6EP3v5jbcNT94+G9o479coiWcFV0f1puYUoAztdYZ5Fl2wT82XxRCz9w==",
+      "type": "package",
+      "path": "arplookup/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "arplookup.2.0.3.nupkg.sha512",
+        "arplookup.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/ArpLookup.dll",
+        "lib/netstandard2.0/ArpLookup.xml"
+      ]
+    },
+    "MacAddressVendorLookup/1.1.13": {
+      "sha512": "TTtTd6U+XaieJF4JCc3Vw5r1dSn5dlOfmwuc7mvOTSWpiTKsMY79egzZRp7gdgehjhlXVoIcOjBgqltloHHhKw==",
+      "type": "package",
+      "path": "macaddressvendorlookup/1.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MacAddressVendorLookup.dll",
+        "lib/netstandard2.0/MacAddressVendorLookup.dll",
+        "macaddressvendorlookup.1.1.13.nupkg.sha512",
+        "macaddressvendorlookup.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ArpLookup >= 2.0.3",
+      "MacAddressVendorLookup >= 1.1.13"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerApi\\EMapScannerApi.csproj",
+      "projectName": "EMapScannerApi",
+      "projectPath": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerApi\\EMapScannerApi.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "ArpLookup": {
+            "target": "Package",
+            "version": "[2.0.3, )"
+          },
+          "MacAddressVendorLookup": {
+            "target": "Package",
+            "version": "[1.1.13, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
