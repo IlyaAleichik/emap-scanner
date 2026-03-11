@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EMapScannerGui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a19bcf3baf3c2f5caaa6a4fd57838ace249eea2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e31162137307a7faed7a7d554131cde6ba1aa67")]
 [assembly: System.Reflection.AssemblyProductAttribute("EMapScannerGui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EMapScannerGui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

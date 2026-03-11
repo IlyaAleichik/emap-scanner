@@ -3,47 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\emap-scanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\emapscannergui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\emapscannergui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\viewmodels\\devicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\viewmodels\\devicesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\helpers\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\models\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\converters\\booltobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\converters\\booltobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\emapscannergui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\emapscannergui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -52,10 +64,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|c:\\users\\user\\desktop\\emap-scanner\\emapscannergui\\converters\\booltobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19954CF9-FB0D-42AA-AF9C-0A41CF931E3E}|EMapScannerGui\\EMapScannerGui.csproj|solutionrelative:emapscannergui\\converters\\booltobrushconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,7 +73,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,92 +81,101 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Helpers\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "EMapScannerGui\\Helpers\\RelayCommand.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Helpers\\RelayCommand.cs",
-              "RelativeToolTip": "EMapScannerGui\\Helpers\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBgAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DevicesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewModels\\DevicesViewModel.cs",
+              "RelativeDocumentMoniker": "EMapScannerGui\\ViewModels\\DevicesViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewModels\\DevicesViewModel.cs",
+              "RelativeToolTip": "EMapScannerGui\\ViewModels\\DevicesViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T14:36:10.742Z",
+              "WhenOpened": "2026-03-11T14:28:41.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Models\\Device.cs",
+              "RelativeDocumentMoniker": "EMapScannerGui\\Models\\Device.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Models\\Device.cs",
+              "RelativeToolTip": "EMapScannerGui\\Models\\Device.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T14:23:30.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Models\\Product.cs",
               "RelativeDocumentMoniker": "EMapScannerGui\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Models\\Product.cs",
               "RelativeToolTip": "EMapScannerGui\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T13:15:39.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "EMapScannerGui\\ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "EMapScannerGui\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAcwMMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAIA9wDIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T12:59:31.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "App.axaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml",
-              "RelativeDocumentMoniker": "EMapScannerGui\\App.axaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml",
-              "RelativeToolTip": "EMapScannerGui\\App.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-09T13:23:39.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml.cs",
-              "RelativeDocumentMoniker": "EMapScannerGui\\App.axaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml.cs",
-              "RelativeToolTip": "EMapScannerGui\\App.axaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T12:58:11.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "EMapScannerGui\\ViewModels\\ViewModelBase.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewModels\\ViewModelBase.cs",
               "RelativeToolTip": "EMapScannerGui\\ViewModels\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T12:59:30.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Helpers\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "EMapScannerGui\\Helpers\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Helpers\\RelayCommand.cs",
+              "RelativeToolTip": "EMapScannerGui\\Helpers\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T14:36:10.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "EMapScannerGui\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "EMapScannerGui\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T12:57:41.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "EMapScannerGui\\Views\\MainWindow.axaml.cs",
@@ -171,32 +188,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Dispatcher.cs",
-              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
-              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
-              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
-              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
-              "ViewState": "AgIAANIAAAAAAAAAAAAgwOUAAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T12:58:25.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "EMapScannerGui\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "EMapScannerGui\\Views\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-09T12:57:41.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml.cs",
+              "RelativeDocumentMoniker": "EMapScannerGui\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml.cs",
+              "RelativeToolTip": "EMapScannerGui\\App.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T12:58:11.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "EMapScannerGui.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\EMapScannerGui.csproj",
               "RelativeDocumentMoniker": "EMapScannerGui\\EMapScannerGui.csproj",
@@ -204,25 +209,11 @@
               "RelativeToolTip": "EMapScannerGui\\EMapScannerGui.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-09T13:47:11.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T13:47:11.741Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ViewLocator.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewLocator.cs",
-              "RelativeDocumentMoniker": "EMapScannerGui\\ViewLocator.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewLocator.cs",
-              "RelativeToolTip": "EMapScannerGui\\ViewLocator.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:23:45.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Program.cs",
               "RelativeDocumentMoniker": "EMapScannerGui\\Program.cs",
@@ -235,7 +226,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
+              "Title": "BoolToBrushConverter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
+              "RelativeDocumentMoniker": "EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
+              "RelativeToolTip": "EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:24:58.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml",
+              "RelativeDocumentMoniker": "EMapScannerGui\\App.axaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\App.axaml",
+              "RelativeToolTip": "EMapScannerGui\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T13:23:39.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Dispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
+              "ToolTip": "C:\\Users\\User\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\e8c880832176360e621a94f270ff1ebb8ffb5b304f6957d1db65e7930a1431e4\\Dispatcher.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAgwOUAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T12:58:25.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "EMapScannerGui\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\ViewLocator.cs",
+              "RelativeToolTip": "EMapScannerGui\\ViewLocator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T13:23:45.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "app.manifest",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\app.manifest",
               "RelativeDocumentMoniker": "EMapScannerGui\\app.manifest",
@@ -243,20 +283,7 @@
               "RelativeToolTip": "EMapScannerGui\\app.manifest",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2026-03-09T14:28:45.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BoolToBrushConverter.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
-              "RelativeDocumentMoniker": "EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\emap-scanner\\EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
-              "RelativeToolTip": "EMapScannerGui\\Converters\\BoolToBrushConverter.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowEIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T13:24:58.183Z"
+              "WhenOpened": "2026-03-09T14:28:45.958Z"
             }
           ]
         }

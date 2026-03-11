@@ -1,7 +1,5 @@
-﻿using Avalonia.Threading;
-using EMapScannerGui.Helpers;
+﻿using EMapScannerGui.Helpers;
 using EMapScannerGui.Models;
-using ReactiveUI;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -31,12 +29,12 @@ namespace EMapScannerGui.ViewModels
         {
             // Инициализация данных
             Products = new ObservableCollection<Product>
-        {
-            new Product { Id = 1, Name = "Ноутбук", Category = "Электроника", Price = 75000, Quantity = 5, IsAvailable = true, AddedDate = DateTime.Now.AddDays(-10) },
-            new Product { Id = 2, Name = "Мышь", Category = "Периферия", Price = 1500, Quantity = 20, IsAvailable = true, AddedDate = DateTime.Now.AddDays(-5) },
-            new Product { Id = 3, Name = "Клавиатура", Category = "Периферия", Price = 3500, Quantity = 0, IsAvailable = false, AddedDate = DateTime.Now.AddDays(-3) },
-            new Product { Id = 4, Name = "Монитор", Category = "Электроника", Price = 25000, Quantity = 3, IsAvailable = true, AddedDate = DateTime.Now.AddDays(-7) }
-        };
+            {
+                new Product { Id = 1, Name = "Ноутбук", Category = "Электроника", Price = 75000, Quantity = 5, IsAvailable = true, AddedDate = DateTime.Now.AddDays(-10) },
+                new Product { Id = 2, Name = "Мышь", Category = "Периферия", Price = 1500, Quantity = 20, IsAvailable = true, AddedDate = DateTime.Now.AddDays(-5) },
+                new Product { Id = 3, Name = "Клавиатура", Category = "Периферия", Price = 3500, Quantity = 0, IsAvailable = false, AddedDate = DateTime.Now.AddDays(-3) },
+                new Product { Id = 4, Name = "Монитор", Category = "Электроника", Price = 25000, Quantity = 3, IsAvailable = true, AddedDate = DateTime.Now.AddDays(-7) }
+             };
 
             FilteredProducts = new ObservableCollection<Product>(Products);
 
