@@ -5,7 +5,10 @@ using MacAddressVendorLookup;
 namespace EMapScanner
 {
 
-    class MapScanner
+
+
+
+    public class MapScanner
     {
         string addressBase = "192.168.0.";
         int startAddress = 1;
@@ -69,12 +72,8 @@ namespace EMapScanner
         //        vendorInfoProvider.Init(resourceStream).Wait();
         //    }
         //    var addressMatcher = new MacAddressVendorLookup.AddressMatcher(vendorInfoProvider);
-
-
         //        var vendorInfo = addressMatcher.FindInfo(ni.GetPhysicalAddress());
         //        Console.WriteLine("\nAdapter: " + ni.Description);
-
-
         //}
 
         //List<(IPAddress, PhysicalAddress)> detectedAddresses = new List<(IPAddress, PhysicalAddress)>();

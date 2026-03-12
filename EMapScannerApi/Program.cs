@@ -13,11 +13,10 @@ namespace EMapScanner
 
         static async Task Main(string[] args)
         {
-            List < (IPAddress, PhysicalAddress) > detectedAddresses = new List<(IPAddress, PhysicalAddress)>();
+            List <(IPAddress, PhysicalAddress)> detectedAddresses = new List<(IPAddress, PhysicalAddress)>();
             MapScanner mapScanner = new MapScanner(detectedAddresses);
 
             var service = new MacLookupService();
-
 
             mapScanner.QuickScan();
 
@@ -48,8 +47,7 @@ namespace EMapScanner
                     }                
                 }
             }
-
-       
+     
         }
 
 

@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace EMapScannerGui.Models
 {
-    public class Product : INotifyPropertyChanged
+    public class Product 
     {
         private string _name;
         private string _category;
-        private decimal _price;
-        private int _quantity;
-        private bool _isAvailable;
+        //private decimal _price;
+        //private int _quantity;
+        //private bool _isAvailable;
 
         public int Id { get; set; }
 
@@ -24,7 +24,7 @@ namespace EMapScannerGui.Models
             set
             {
                 _name = value;
-                OnPropertyChanged();
+                //OnPropertyChanged();
             }
         }
 
@@ -34,54 +34,54 @@ namespace EMapScannerGui.Models
             set
             {
                 _category = value;
-                OnPropertyChanged();
+                //OnPropertyChanged();
             }
         }
 
-        public decimal Price
-        {
-            get => _price;
-            set
-            {
-                _price = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(PriceWithCurrency));
-            }
-        }
+        //public decimal Price
+        //{
+        //    get => _price;
+        //    set
+        //    {
+        //        _price = value;
+        //        OnPropertyChanged();
+        //        OnPropertyChanged(nameof(PriceWithCurrency));
+        //    }
+        //}
 
-        public int Quantity
-        {
-            get => _quantity;
-            set
-            {
-                _quantity = value;
-                OnPropertyChanged();
-                OnPropertyChanged(nameof(TotalValue));
-            }
-        }
+        //public int Quantity
+        //{
+        //    get => _quantity;
+        //    set
+        //    {
+        //        _quantity = value;
+        //        OnPropertyChanged();
+        //        OnPropertyChanged(nameof(TotalValue));
+        //    }
+        //}
 
-        public bool IsAvailable
-        {
-            get => _isAvailable;
-            set
-            {
-                _isAvailable = value;
-                OnPropertyChanged();
-            }
-        }
+        //public bool IsAvailable
+        //{
+        //    get => _isAvailable;
+        //    set
+        //    {
+        //        _isAvailable = value;
+        //        OnPropertyChanged();
+        //    }
+        //}
 
         public DateTime AddedDate { get; set; }
 
         // Вычисляемые свойства
-        public string PriceWithCurrency => $"{Price:F2} ₽";
-        public decimal TotalValue => Price * Quantity;
+        //public string PriceWithCurrency => $"{Price:F2} ₽";
+        //public decimal TotalValue => Price * Quantity;
 
         // INotifyPropertyChanged implementation
-        public event PropertyChangedEventHandler PropertyChanged;
+        //public event PropertyChangedEventHandler PropertyChanged;
 
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        //protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        //{
+        //    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        //}
     }
 }

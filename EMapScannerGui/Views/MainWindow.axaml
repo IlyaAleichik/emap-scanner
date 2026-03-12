@@ -6,65 +6,59 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="EMapScannerGui.Views.MainWindow"
-        x:DataType="vm:MainWindowViewModel"
+        x:DataType="vm:DevicesViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="EMapScannerGui">
 
-    <Design.DataContext>
+    <Window.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
+        <!--       <vm:MainWindowViewModel/>-->
+        <vm:DevicesViewModel/>
+    </Window.DataContext>
 
-    <Window.Resources>
-        <converters:StatusColorConverter x:Key="StatusColorConverter"/>
-        <converters:StatusTextConverter x:Key="StatusTextConverter"/>
-        <converters:SelectedProductInfoConverter x:Key="SelectedProductInfoConverter"/>
-        <converters:PriceToColorConverter x:Key="PriceToColorConverter"/>
-    </Window.Resources>
+    <!-- <Window.Resources>
+    <converters:StatusColorConverter x:Key="StatusColorConverter"/>
+    <converters:StatusTextConverter x:Key="StatusTextConverter"/>
+    <converters:SelectedProductInfoConverter x:Key="SelectedProductInfoConverter"/>
+    <converters:PriceToColorConverter x:Key="PriceToColorConverter"/>
+    </Window.Resources>-->
 
     <Grid RowDefinitions="Auto,Auto,*,Auto" Margin="10">
-
-        <Grid.Resources>
-            <vm:DevicesViewModel x:Key="DeviceVm"/>
-            <!--        <local:ProductsViewModel x:Key="ProductsVM"/>
-            <local:SettingsViewModel x:Key="SettingsVM"/>-->
-        </Grid.Resources>
-
         <!-- Заголовок -->
-        <TextBlock Grid.Row="0" Text="Управление товарами"
+        <TextBlock Grid.Row="0" Text="Управление устройствами в сети"
                    FontSize="20" FontWeight="Bold"
                    Margin="0,0,0,10"/>
 
         <!-- Панель инструментов -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" Margin="0,0,0,10">
-            <!-- Поиск -->
-            <TextBox Text="{Binding SearchText}"
-                     Watermark="Поиск товаров..."
-                     Width="200"/>
+        <!--   <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="5" Margin="0,0,0,10">
+        --><!-- Поиск --><!--
+        <TextBox Text="{Binding SearchText}"
+        Watermark="Поиск товаров..."
+        Width="200"/>
 
-            <Button Content="Добавить"
-                    Command="{Binding AddProductCommand}"
-                    Classes="accent"/>
+        <Button Content="Добавить"
+        Command="{Binding AddProductCommand}"
+        Classes="accent"/>
 
-            <Button Content="Редактировать"
-                    Command="{Binding EditProductCommand}"/>
+        <Button Content="Редактировать"
+        Command="{Binding EditProductCommand}"/>
 
-            <Button Content="Удалить"
-                    Command="{Binding DeleteProductCommand}"/>
+        <Button Content="Удалить"
+        Command="{Binding DeleteProductCommand}"/>
 
-            <Button Content="Обновить"
-                    Command="{Binding RefreshCommand}"/>
+        <Button Content="Обновить"
+        Command="{Binding RefreshCommand}"/>
 
-            <Button Content="Сбросить фильтры"
-                    Command="{Binding ClearFiltersCommand}"/>
+        <Button Content="Сбросить фильтры"
+        Command="{Binding ClearFiltersCommand}"/>
 
-            <Button Content="Экспорт CSV"
-                    Command="{Binding ExportToCsvCommand}"/>
+        <Button Content="Экспорт CSV"
+        Command="{Binding ExportToCsvCommand}"/>
 
-            <Button Content="Устройства"
-                    Command="{Binding ExportToCsvCommand}"/>
-        </StackPanel>
+        <Button Content="Устройства"
+        Command="{Binding ExportToCsvCommand}"/>
+        </StackPanel>-->
 
 
         <!--    <Grid DataContext="{StaticResource DeviceVm}">
@@ -75,13 +69,12 @@
         </DataGrid>
         </Grid>-->
 
-
+        <!-- SelectedItem="{Binding SelectedProduct}"-->
         <!-- DataGrid -->
         <DataGrid Grid.Row="2"
-                  ItemsSource="{Binding FilteredProducts}"
-                  SelectedItem="{Binding SelectedProduct}"
+                  ItemsSource="{Binding Devices}"
                   AutoGenerateColumns="False"
-                  IsReadOnly="False"
+                  IsReadOnly="True"
                   GridLinesVisibility="All"
                   BorderBrush="Gray"
                   BorderThickness="1"
@@ -89,40 +82,58 @@
 
             <DataGrid.Columns>
                 <!-- Колонка с чекбоксом -->
-                <DataGridCheckBoxColumn Header="Доступен"
-                                        Binding="{Binding IsAvailable}"
-                                        Width="80"/>
+                <!--    <DataGridCheckBoxColumn Header="Доступен"
+                Binding="{Binding IsAvailable}"
+                Width="80"/>-->
 
                 <!-- Текстовые колонки -->
                 <DataGridTextColumn Header="ID"
-                                    Binding="{Binding Name}"
-                                    Width="50"
-                                    IsReadOnly="True"/>
+                                    Binding="{Binding Id}"
 
-                <DataGridTextColumn Header="Наименование"
-                                    Binding="{Binding Name}"
-                                    Width="200"/>
+                                    />
 
-                <DataGridTextColumn Header="Категория"
-                                    Binding="{Binding Category}"
-                                    Width="150"/>
+
+                <DataGridTextColumn Header="IP"
+                                    Binding="{Binding Ip}"
+
+                                    />
+
+
+                <DataGridTextColumn Header="MAC"
+                                    Binding="{Binding Mac}"
+
+                                    />
+
+
+                <DataGridTextColumn Header="OEM"
+                                    Binding="{Binding Oem}"
+
+                                    />
+
+                <!--<DataGridTextColumn Header="Наименование"
+                Binding="{Binding Name}"
+                Width="200"/>-->
+
+                <!-- <DataGridTextColumn Header="Категория"
+                Binding="{Binding Category}"
+                Width="150"/>-->
 
                 <!-- Колонка с форматированием цены -->
-                <DataGridTextColumn Header="Цена"
-                                    Binding="{Binding Price, StringFormat=\{0:F2\} ₽}"
-                                    Width="100">
+                <!-- <DataGridTextColumn Header="Цена"
+                Binding="{Binding Price, StringFormat=\{0:F2\} ₽}"
+                Width="100">
 
-                </DataGridTextColumn>
+                </DataGridTextColumn>-->
 
                 <!-- Колонка с числом -->
-                <DataGridTextColumn Header="Количество"
-                                    Binding="{Binding Quantity}"
-                                    Width="80"/>
+                <!--     <DataGridTextColumn Header="Количество"
+                Binding="{Binding Quantity}"
+                Width="80"/>-->
 
                 <!-- Колонка с датой -->
                 <DataGridTextColumn Header="Дата добавления"
                                     Binding="{Binding AddedDate, StringFormat=\{0:dd.MM.yyyy\}}"
-                                    Width="120"/>
+                                    />
 
                 <!-- Шаблонная колонка для индикации наличия -->
                 <!--	<DataGridTemplateColumn Header="Статус" Width="100">
@@ -153,8 +164,8 @@
 
         <!-- Статусная строка -->
         <StackPanel Grid.Row="3" Orientation="Horizontal" Spacing="20">
-            <TextBlock Text="{Binding FilteredProducts.Count, StringFormat='Записей: {0}'}"/>
-            <TextBlock Text="{Binding Products.Count, StringFormat='Всего товаров: {0}'}"/>
+            <!-- <TextBlock Text="{Binding FilteredProducts.Count, StringFormat='Записей: {0}'}"/>-->
+            <TextBlock Text="{Binding Devices.Count, StringFormat='Всего устройств: {0}'}"/>
 
             <!--<TextBlock Text="{Binding SelectedItem, Converter={StaticResource converters:SelectedItemInfoConverter}}"
             FontWeight="Bold"/>-->

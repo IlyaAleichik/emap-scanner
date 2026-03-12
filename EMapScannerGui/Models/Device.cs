@@ -9,13 +9,24 @@ using System.Threading.Tasks;
 namespace EMapScannerGui.Models
 {
     public class Device : INotifyPropertyChanged
-
     {
+        public int Id { get; set; }
         private string _ip;
         private string _mac;
         private string _oem;
 
-        public int Id { get; set; }
+
+        public Device()
+        {
+      
+        }
+
+        public Device(string ip, string mac, string oem)
+        {
+            _ip = ip;
+            _mac = mac;
+            _oem = oem;
+        }
 
         public string Ip
         {
@@ -49,6 +60,7 @@ namespace EMapScannerGui.Models
 
         public DateTime AddedDate { get; set; }
 
+        // INotifyPropertyChanged implementation
         public event PropertyChangedEventHandler PropertyChanged;
 
         protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
